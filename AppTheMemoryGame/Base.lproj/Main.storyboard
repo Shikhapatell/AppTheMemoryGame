@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -44,17 +44,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7wR-ls-QND">
-                                <rect key="frame" x="0.0" y="-55" width="414" height="951"/>
+                                <rect key="frame" x="147" y="372" width="414" height="951"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="YT7-wy-TPP" kind="show" id="Jr3-kJ-p0W"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hello, I am Ava." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blI-Gv-lnq">
-                                <rect key="frame" x="110" y="366" width="203" height="39"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hello,                    I am Cas" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blI-Gv-lnq">
+                                <rect key="frame" x="116" y="205" width="183" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="41"/>
+                                <color key="textColor" red="0.22099317499748083" green="0.29780981077791308" blue="0.30062492093401028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -65,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hxa-BC-raF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="197" y="86"/>
+            <point key="canvasLocation" x="195.6521739130435" y="85.714285714285708"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RY6-Bt-rv1">
@@ -75,20 +75,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-06-24 at 12.51.34 PM" translatesAutoresizingMaskIntoConstraints="NO" id="9mS-91-o1j">
-                                <rect key="frame" x="-3" y="-104" width="438" height="1104"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Cas,                Your personal care-assistant" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhh-Ki-31X">
+                                <rect key="frame" x="59" y="601" width="296" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3X-gf-5WE">
-                                <rect key="frame" x="41" y="139" width="333" height="570"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" red="0.22099317499999999" green="0.29780981080000002" blue="0.30062492089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="34" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3X-gf-5WE">
+                                <rect key="frame" x="74" y="43" width="281" height="637"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">"As of 2020, 40% of individuals 65 and older are diagnosed with age-associated memory impairment. In the U.S, that's around 16 million people. As more people become affected by these memory, language, and problem-solving disorders, the need for educated caregivers is on the rise. Our app, The Care Project, is catered specifically to caregivers and family members of those affected with memory disorders. Different categories within the app act as supportive and enlightening resources to better the patients' and caregivers' well-being."</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="contentStretch" x="0.5" y="0.0" width="1" height="1"/>
+                                <mutableString key="text">"As of 2020, 40% of individuals 65 and older are diagnosed with age-associated memory impairment. In the U.S, that's around 16 million people. As more people become affected by these memory, language, and problem-solving disorders, the need for educated caregivers is on the rise. Our app, The Care Project, is catered specifically to caregivers and family members of those affected with memory disorders. Different categories within the app act as supportive and enlightening resources to better the patients' and caregivers' well-being."                                                        </mutableString>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" red="0.28321307899999998" green="0.38074052330000002" blue="0.38128799200000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.97328394650000005" green="0.94125145669999999" blue="0.93251448869999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="2vW-u1-xDz"/>
                     </view>
                     <navigationItem key="navigationItem" id="n0j-pz-qe6"/>
@@ -106,10 +110,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What are you looking for today? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Zg-Tb-nmp">
-                                <rect key="frame" x="25" y="138" width="372" height="33"/>
+                                <rect key="frame" x="25" y="138" width="364" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" red="0.22099317499999999" green="0.29780981080000002" blue="0.30062492089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue square" translatesAutoresizingMaskIntoConstraints="NO" id="giu-aT-SYy">
@@ -252,7 +256,6 @@
         <image name="IMG_0261" width="1554" height="1254"/>
         <image name="Screen Shot 2020-06-24 at 11.27.38 AM" width="340" height="118"/>
         <image name="Screen Shot 2020-06-24 at 11.28.32 AM" width="317" height="136"/>
-        <image name="Screen Shot 2020-06-24 at 12.51.34 PM" width="348" height="480"/>
         <image name="blue square" width="287" height="93"/>
         <image name="green square" width="297" height="116"/>
     </resources>
