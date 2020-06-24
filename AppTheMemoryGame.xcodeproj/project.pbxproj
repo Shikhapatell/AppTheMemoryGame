@@ -12,10 +12,10 @@
 		DBBA9C9D24A2DA4A0027C4EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9C9C24A2DA4A0027C4EE /* ViewController.swift */; };
 		DBBA9CA024A2DA4A0027C4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBA9C9E24A2DA4A0027C4EE /* Main.storyboard */; };
 		DBBA9CA324A2DA4A0027C4EE /* AppTheMemoryGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9CA124A2DA4A0027C4EE /* AppTheMemoryGame.xcdatamodeld */; };
-		DBBA9CA524A2DA4E0027C4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBA9CA424A2DA4E0027C4EE /* Assets.xcassets */; };
 		DBBA9CA824A2DA4E0027C4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBA9CA624A2DA4E0027C4EE /* LaunchScreen.storyboard */; };
 		DBBA9CB324A2DA4F0027C4EE /* AppTheMemoryGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9CB224A2DA4F0027C4EE /* AppTheMemoryGameTests.swift */; };
 		DBBA9CBE24A2DA4F0027C4EE /* AppTheMemoryGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9CBD24A2DA4F0027C4EE /* AppTheMemoryGameUITests.swift */; };
+		DBBA9CCE24A2E6B60027C4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBA9CCD24A2E6B60027C4EE /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		DBBA9C9C24A2DA4A0027C4EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBBA9C9F24A2DA4A0027C4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBBA9CA224A2DA4A0027C4EE /* AppTheMemoryGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppTheMemoryGame.xcdatamodel; sourceTree = "<group>"; };
-		DBBA9CA424A2DA4E0027C4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBBA9CA724A2DA4E0027C4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBBA9CA924A2DA4E0027C4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBBA9CAE24A2DA4F0027C4EE /* AppTheMemoryGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTheMemoryGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		DBBA9CB924A2DA4F0027C4EE /* AppTheMemoryGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTheMemoryGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBA9CBD24A2DA4F0027C4EE /* AppTheMemoryGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheMemoryGameUITests.swift; sourceTree = "<group>"; };
 		DBBA9CBF24A2DA4F0027C4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBA9CCD24A2E6B60027C4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/AppIcons (1)/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				DBBA9C9A24A2DA4A0027C4EE /* SceneDelegate.swift */,
 				DBBA9C9C24A2DA4A0027C4EE /* ViewController.swift */,
 				DBBA9C9E24A2DA4A0027C4EE /* Main.storyboard */,
-				DBBA9CA424A2DA4E0027C4EE /* Assets.xcassets */,
+				DBBA9CCD24A2E6B60027C4EE /* Assets.xcassets */,
 				DBBA9CA624A2DA4E0027C4EE /* LaunchScreen.storyboard */,
 				DBBA9CA924A2DA4E0027C4EE /* Info.plist */,
 				DBBA9CA124A2DA4A0027C4EE /* AppTheMemoryGame.xcdatamodeld */,
@@ -236,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBBA9CA824A2DA4E0027C4EE /* LaunchScreen.storyboard in Resources */,
-				DBBA9CA524A2DA4E0027C4EE /* Assets.xcassets in Resources */,
+				DBBA9CCE24A2E6B60027C4EE /* Assets.xcassets in Resources */,
 				DBBA9CA024A2DA4A0027C4EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
