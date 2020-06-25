@@ -16,7 +16,6 @@
 		DBBA9CA824A2DA4E0027C4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBA9CA624A2DA4E0027C4EE /* LaunchScreen.storyboard */; };
 		DBBA9CB324A2DA4F0027C4EE /* AppTheMemoryGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9CB224A2DA4F0027C4EE /* AppTheMemoryGameTests.swift */; };
 		DBBA9CBE24A2DA4F0027C4EE /* AppTheMemoryGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9CBD24A2DA4F0027C4EE /* AppTheMemoryGameUITests.swift */; };
-		DBBA9CD024A3B1160027C4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBA9CCF24A3B1150027C4EE /* Assets.xcassets */; };
 		DBBA9CDC24A417F00027C4EE /*  swiftgif.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9CDB24A417F00027C4EE /*  swiftgif.swift */; };
 		DBBA9CE024A41A670027C4EE /* gifxcode.gif in Resources */ = {isa = PBXBuildFile; fileRef = DBBA9CDF24A41A670027C4EE /* gifxcode.gif */; };
 /* End PBXBuildFile section */
@@ -54,7 +53,6 @@
 		DBBA9CB924A2DA4F0027C4EE /* AppTheMemoryGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTheMemoryGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBA9CBD24A2DA4F0027C4EE /* AppTheMemoryGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheMemoryGameUITests.swift; sourceTree = "<group>"; };
 		DBBA9CBF24A2DA4F0027C4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBBA9CCF24A3B1150027C4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Desktop/KWK/AppTheMemoryGame/AppTheMemoryGame/Assets.xcassets; sourceTree = "<group>"; };
 		DBBA9CDB24A417F00027C4EE /*  swiftgif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " swiftgif.swift"; sourceTree = "<group>"; };
 		DBBA9CDF24A41A670027C4EE /* gifxcode.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gifxcode.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,7 +112,6 @@
 				DBBA9CDF24A41A670027C4EE /* gifxcode.gif */,
 				DBBA9C9E24A2DA4A0027C4EE /* Main.storyboard */,
 				4586615E24A4262F00214308 /* Images.xcassets */,
-				DBBA9CCF24A3B1150027C4EE /* Assets.xcassets */,
 				DBBA9CA624A2DA4E0027C4EE /* LaunchScreen.storyboard */,
 				DBBA9CA924A2DA4E0027C4EE /* Info.plist */,
 				DBBA9CA124A2DA4A0027C4EE /* AppTheMemoryGame.xcdatamodeld */,
@@ -248,7 +245,6 @@
 				DBBA9CA824A2DA4E0027C4EE /* LaunchScreen.storyboard in Resources */,
 				4586615F24A4262F00214308 /* Images.xcassets in Resources */,
 				DBBA9CE024A41A670027C4EE /* gifxcode.gif in Resources */,
-				DBBA9CD024A3B1160027C4EE /* Assets.xcassets in Resources */,
 				DBBA9CA024A2DA4A0027C4EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
