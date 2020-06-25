@@ -16,6 +16,8 @@
 		DBBA9CB324A2DA4F0027C4EE /* AppTheMemoryGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9CB224A2DA4F0027C4EE /* AppTheMemoryGameTests.swift */; };
 		DBBA9CBE24A2DA4F0027C4EE /* AppTheMemoryGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9CBD24A2DA4F0027C4EE /* AppTheMemoryGameUITests.swift */; };
 		DBBA9CD024A3B1160027C4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBA9CCF24A3B1150027C4EE /* Assets.xcassets */; };
+		DBBA9CDC24A417F00027C4EE /*  swiftgif.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9CDB24A417F00027C4EE /*  swiftgif.swift */; };
+		DBBA9CE024A41A670027C4EE /* gifxcode.gif in Resources */ = {isa = PBXBuildFile; fileRef = DBBA9CDF24A41A670027C4EE /* gifxcode.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DBBA9CBD24A2DA4F0027C4EE /* AppTheMemoryGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheMemoryGameUITests.swift; sourceTree = "<group>"; };
 		DBBA9CBF24A2DA4F0027C4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBBA9CCF24A3B1150027C4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Desktop/KWK/AppTheMemoryGame/AppTheMemoryGame/Assets.xcassets; sourceTree = "<group>"; };
+		DBBA9CDB24A417F00027C4EE /*  swiftgif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " swiftgif.swift"; sourceTree = "<group>"; };
+		DBBA9CDF24A41A670027C4EE /* gifxcode.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gifxcode.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,11 @@
 		DBBA9C9724A2DA4A0027C4EE /* AppTheMemoryGame */ = {
 			isa = PBXGroup;
 			children = (
+				DBBA9CDB24A417F00027C4EE /*  swiftgif.swift */,
 				DBBA9C9824A2DA4A0027C4EE /* AppDelegate.swift */,
 				DBBA9C9A24A2DA4A0027C4EE /* SceneDelegate.swift */,
 				DBBA9C9C24A2DA4A0027C4EE /* ViewController.swift */,
+				DBBA9CDF24A41A670027C4EE /* gifxcode.gif */,
 				DBBA9C9E24A2DA4A0027C4EE /* Main.storyboard */,
 				DBBA9CCF24A3B1150027C4EE /* Assets.xcassets */,
 				DBBA9CA624A2DA4E0027C4EE /* LaunchScreen.storyboard */,
@@ -199,6 +205,7 @@
 				TargetAttributes = {
 					DBBA9C9424A2DA4A0027C4EE = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 					DBBA9CAD24A2DA4F0027C4EE = {
 						CreatedOnToolsVersion = 11.0;
@@ -236,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBBA9CA824A2DA4E0027C4EE /* LaunchScreen.storyboard in Resources */,
+				DBBA9CE024A41A670027C4EE /* gifxcode.gif in Resources */,
 				DBBA9CD024A3B1160027C4EE /* Assets.xcassets in Resources */,
 				DBBA9CA024A2DA4A0027C4EE /* Main.storyboard in Resources */,
 			);
@@ -262,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBBA9CDC24A417F00027C4EE /*  swiftgif.swift in Sources */,
 				DBBA9C9D24A2DA4A0027C4EE /* ViewController.swift in Sources */,
 				DBBA9C9924A2DA4A0027C4EE /* AppDelegate.swift in Sources */,
 				DBBA9CA324A2DA4A0027C4EE /* AppTheMemoryGame.xcdatamodeld in Sources */,
@@ -438,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M6V2V4K7T6;
 				INFOPLIST_FILE = AppTheMemoryGame/Info.plist;
@@ -456,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M6V2V4K7T6;
 				INFOPLIST_FILE = AppTheMemoryGame/Info.plist;
