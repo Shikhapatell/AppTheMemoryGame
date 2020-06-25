@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4586615F24A4262F00214308 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4586615E24A4262F00214308 /* Images.xcassets */; };
 		DBBA9C9924A2DA4A0027C4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9C9824A2DA4A0027C4EE /* AppDelegate.swift */; };
 		DBBA9C9B24A2DA4A0027C4EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9C9A24A2DA4A0027C4EE /* SceneDelegate.swift */; };
 		DBBA9C9D24A2DA4A0027C4EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA9C9C24A2DA4A0027C4EE /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4586615E24A4262F00214308 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DBBA9C9524A2DA4A0027C4EE /* AppTheMemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTheMemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBA9C9824A2DA4A0027C4EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBBA9C9A24A2DA4A0027C4EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				DBBA9C9C24A2DA4A0027C4EE /* ViewController.swift */,
 				DBBA9CDF24A41A670027C4EE /* gifxcode.gif */,
 				DBBA9C9E24A2DA4A0027C4EE /* Main.storyboard */,
+				4586615E24A4262F00214308 /* Images.xcassets */,
 				DBBA9CCF24A3B1150027C4EE /* Assets.xcassets */,
 				DBBA9CA624A2DA4E0027C4EE /* LaunchScreen.storyboard */,
 				DBBA9CA924A2DA4E0027C4EE /* Info.plist */,
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBBA9CA824A2DA4E0027C4EE /* LaunchScreen.storyboard in Resources */,
+				4586615F24A4262F00214308 /* Images.xcassets in Resources */,
 				DBBA9CE024A41A670027C4EE /* gifxcode.gif in Resources */,
 				DBBA9CD024A3B1160027C4EE /* Assets.xcassets in Resources */,
 				DBBA9CA024A2DA4A0027C4EE /* Main.storyboard in Resources */,
